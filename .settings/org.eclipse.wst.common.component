@@ -2,6 +2,6 @@
     <wb-module deploy-name="JPA-Example">
         <wb-resource deploy-path="/" source-path="/SingleTableExample"/>
         <wb-resource deploy-path="/" source-path="/StartJPA"/>
-        <wb-resource deploy-path="/" source-path="/Relations"/>
+        <wb-resource deploy-path="/" source-path="/Relation-ManyToOne"/>
     </wb-module>
 </project-modules>
