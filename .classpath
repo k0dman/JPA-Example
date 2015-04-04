@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="SingleTableExample"/>
 	<classpathentry kind="src" path="StartJPA"/>
 	<classpathentry kind="src" path="Relation-ManyToOne"/>
+	<classpathentry kind="src" path="Relation-OneToMany"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>

@@ -5,8 +5,8 @@
              http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 	<persistence-unit name="Eclipselink_JPA"
 		transaction-type="RESOURCE_LOCAL">
-		<class>de.example.entities.Sector</class>
-		<class>de.example.entities.Profession</class>
+		<class>de.example.entities.Brand</class>
+		<class>de.example.entities.ToolType</class>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/person" />
