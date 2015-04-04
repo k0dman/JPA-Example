@@ -15,7 +15,7 @@ public class Brand {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String name;
-	@OneToMany ( targetEntity=ToolType.class )
+	@OneToMany(targetEntity = ToolType.class)
 	private List toolTypeList;
 
 	public int getId() {
@@ -32,5 +32,13 @@ public class Brand {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public List getToolTypeList() {
+		return toolTypeList;
+	}
+
+	public void setToolTypeList(List toolTypeList) {
+		this.toolTypeList = toolTypeList;
 	}
 }

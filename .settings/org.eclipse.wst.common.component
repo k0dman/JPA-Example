@@ -4,5 +4,6 @@
         <wb-resource deploy-path="/" source-path="/StartJPA"/>
         <wb-resource deploy-path="/" source-path="/Relation-ManyToOne"/>
         <wb-resource deploy-path="/" source-path="/Relation-OneToMany"/>
+        <wb-resource deploy-path="/" source-path="/Relation-ManyToMany"/>
     </wb-module>
 </project-modules>
